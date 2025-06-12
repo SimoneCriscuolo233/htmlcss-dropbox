@@ -91,10 +91,6 @@ ul li div {
   display: inline;
 }
 
-.plan>.bd-btt {
-  padding-bottom: 30px;
-  border-bottom: 1px solid lightgrey;
-}
 
 /*******Tools********/
 .d-flex {
@@ -147,6 +143,12 @@ ul li div {
 
 .border {
   border: 1px solid #DEDDE0;
+}
+
+.bd-btt {
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 40px;
 }
 
 /***********Layout*************/
@@ -206,4 +208,13 @@ ul li div {
   color: #8BA1B6;
   margin-top: 15px;
   display: block;
+}
+
+.plan-end {
+  margin-top: 80px;
+}
+
+.fa-check {
+  color: #0061FF;
+  font-size: 1.3em;
 }
