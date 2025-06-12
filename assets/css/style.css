@@ -13,6 +13,8 @@ header {
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  z-index: 1;
+  height: 60px;
 }
 
 header img {
@@ -28,12 +30,22 @@ header a {
 }
 
 header button {
-  padding: 7px 10px;
+  padding: 10px 20px;
   border: none;
   background-color: #0061FF;
   color: #fff;
 }
 
+main {
+  padding-top: 60px;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 900;
+}
+
+/*******Tools********/
 .d-flex {
   display: flex;
 }
@@ -42,10 +54,44 @@ header button {
   align-items: center;
 }
 
-.d-inline {
-  display: inline;
+.big-container {
+  width: 1500px;
+  margin: 0 auto;
 }
 
-.justify-between {
-  justify-content: space-between;
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bg-lightblue {
+  background-color: #B4D0E6;
+  max-height: 1120px;
+}
+
+/***********Layout*************/
+.col-30 {
+  width: 30%;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-60 img {
+  width: 100%;
+}
+
+/**********Commons***********/
+.col-30 p {
+  font-size: 1.5em;
 }
