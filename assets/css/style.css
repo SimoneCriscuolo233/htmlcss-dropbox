@@ -124,6 +124,10 @@ ul li div {
   gap: 5%;
 }
 
+.mb-65 {
+  margin-bottom: 65px;
+}
+
 .m-top-150 {
   margin-top: 150px;
 }
@@ -162,7 +166,6 @@ ul li div {
 
 .col-100 {
   width: 100%;
-  background-color: aquamarine;
 }
 
 .col-70 img {
@@ -217,4 +220,29 @@ ul li div {
 .fa-check {
   color: #0061FF;
   font-size: 1.3em;
+}
+
+.plan .fourth-plan .btn-fourth-plan {
+  margin: 0;
+}
+
+.m-0 {
+
+  margin: 0;
+}
+
+.col-100 .plan h3 {
+  display: inline;
+}
+
+.col-100 .plan span {
+  display: block;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.fourth-plan {
+  margin-bottom: 40px
 }
