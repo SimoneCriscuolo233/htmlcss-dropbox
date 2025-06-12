@@ -41,9 +41,22 @@ main {
   padding-top: 60px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .bg-lightblue button {
   margin: 40px 0;
   padding: 10px 20px;
+  border: none;
+  font-size: 1em;
+  background-color: #0061FF;
+  color: #ffffff;
+}
+
+.plan button {
+  margin: 50px 0;
+  padding: 10px 45px;
   border: none;
   font-size: 1em;
   background-color: #0061FF;
@@ -58,6 +71,29 @@ h1 {
 h2 {
   font-size: 3em;
   margin-bottom: 70px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 50px;
+}
+
+ul li {
+  margin-top: 25px;
+}
+
+ul li div {
+  display: inline;
+}
+
+.plan>.bd-btt {
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgrey;
 }
 
 /*******Tools********/
@@ -104,17 +140,18 @@ h2 {
   background-color: #B4D0E6;
   max-height: 765px;
 }
-.h-1500{
-  height: 2500px;
+
+.h-1500 {
+  height: 1500px;
 }
-.border{
-  border: 1px black solid;
+
+.border {
+  border: 1px solid #DEDDE0;
 }
 
 /***********Layout*************/
 .col-30 {
   width: 30%;
-background-color: aquamarine;
 }
 
 .col-70 {
@@ -123,6 +160,7 @@ background-color: aquamarine;
 
 .col-100 {
   width: 100%;
+  background-color: aquamarine;
 }
 
 .col-70 img {
@@ -153,7 +191,19 @@ background-color: aquamarine;
   height: 20px;
   margin-left: 20px;
 }
-.plan-head{
- padding: 10px;
- justify-content: center;
+
+.plan-head {
+  padding: 10px;
+  justify-content: center;
+  border-bottom: 1px solid #DEDDE0;
+}
+
+.plan {
+  padding: 40px;
+}
+
+.caption {
+  color: #8BA1B6;
+  margin-top: 15px;
+  display: block;
 }
