@@ -15,6 +15,7 @@ header {
   width: 100%;
   z-index: 1;
   height: 60px;
+  background-color: #fff;
 }
 
 header img {
@@ -38,6 +39,15 @@ header button {
 
 main {
   padding-top: 60px;
+}
+
+.bg-lightblue button {
+  margin: 40px 0;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1em;
+  background-color: #0061FF;
+  color: #fff;
 }
 
 h1 {
@@ -67,31 +77,37 @@ h1 {
 .row {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 70px;
 }
 
 .bg-lightblue {
   background-color: #B4D0E6;
-  max-height: 1120px;
+  max-height: 765px;
 }
 
 /***********Layout*************/
 .col-30 {
-  width: 30%;
+  width: 400px;
 }
 
 .col-70 {
-  width: 70%;
+  width: 1000px;
 }
 
 .col-100 {
   width: 100%;
 }
 
-.col-60 img {
+.col-70 img {
   width: 100%;
 }
 
 /**********Commons***********/
 .col-30 p {
   font-size: 1.5em;
+}
+
+.col-30 .fa-solid {
+  margin-top: 50px;
+  font-size: 4.3em;
 }
