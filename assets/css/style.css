@@ -120,8 +120,8 @@ ul li div {
   row-gap: 70px;
 }
 
-.gap-5 {
-  gap: 5%;
+.gap-60 {
+  gap: 60px;
 }
 
 .mb-65 {
@@ -138,7 +138,6 @@ ul li div {
 
 .bg-lightblue {
   background-color: #B4D0E6;
-  max-height: 765px;
 }
 
 .h-1500 {
@@ -245,4 +244,10 @@ ul li div {
 
 .fourth-plan {
   margin-bottom: 40px
+}
+
+.col-30,
+.col-70 {
+  position: relative;
+  top: 100px;
 }
