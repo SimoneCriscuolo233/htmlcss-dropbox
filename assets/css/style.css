@@ -81,6 +81,7 @@ h3 {
 ul {
   list-style: none;
   margin-top: 50px;
+  min-height: 170px;
 }
 
 ul li {
@@ -91,6 +92,9 @@ ul li div {
   display: inline;
 }
 
+li {
+  display: flex;
+}
 
 /*******Tools********/
 .d-flex {
@@ -128,6 +132,10 @@ ul li div {
   margin-bottom: 65px;
 }
 
+.m-right-5 {
+  margin-right: 5px;
+}
+
 .m-top-150 {
   margin-top: 150px;
 }
@@ -138,6 +146,10 @@ ul li div {
 
 .bg-lightblue {
   background-color: #B4D0E6;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 .h-1500 {
@@ -242,12 +254,12 @@ ul li div {
   justify-content: space-between;
 }
 
-.fourth-plan {
-  margin-bottom: 40px
-}
-
 .col-30,
 .col-70 {
   position: relative;
   top: 100px;
+}
+
+.fourth-plan {
+  margin-bottom: 10px;
 }
