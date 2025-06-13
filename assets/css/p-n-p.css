@@ -43,6 +43,8 @@ main {
 
 footer {
   background-color: black;
+  color: #ffffff;
+  margin-top: 150px;
 }
 
 button:hover {
@@ -71,11 +73,8 @@ button:active {
   color: #ffffff;
 }
 
-.btn-bg-white {
-  padding: 13px 25px;
-  border: 1px black solid;
-  font-size: 1.1em;
-  background-color: #fff;
+.plan button:active {
+  background-color: #4689f3;
 }
 
 h1 {
@@ -91,6 +90,10 @@ h2 {
 h3 {
   font-size: 1.5em;
   margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 1.6em;
 }
 
 ul {
@@ -154,6 +157,11 @@ li {
   margin: 0 auto;
 }
 
+.big-container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -171,6 +179,10 @@ li {
   margin-top: 150px;
 }
 
+.p-top-150 {
+  padding-top: 150px;
+}
+
 .m-right-5 {
   margin-right: 5px;
 }
@@ -181,6 +193,10 @@ li {
 
 .border {
   border: 1px solid #DEDDE0;
+}
+
+.col-20 {
+  width: calc(100% / 5 - 20px);
 }
 
 .col-30 {
@@ -250,4 +266,14 @@ li {
 
 .space-between {
   justify-content: space-between;
+}
+
+.b-top-fff {
+  border-top: 1px solid white;
+  padding-top: 50px;
+  line-height: ;
+}
+
+.p-top-150 {
+  padding-top: 150px;
 }

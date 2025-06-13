@@ -43,6 +43,7 @@ main {
 
 footer {
   background-color: black;
+  color: #ffffff;
 }
 
 button:hover {
@@ -50,6 +51,14 @@ button:hover {
 }
 
 button:active {
+  background-color: #4689f3;
+}
+
+.btn-bg-white:active {
+  background-color: #a7a7a7;
+}
+
+.plan button:active {
   background-color: #4689f3;
 }
 
@@ -91,6 +100,10 @@ h2 {
 h3 {
   font-size: 1.5em;
   margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 1.6em;
 }
 
 ul {
@@ -188,6 +201,10 @@ li {
   margin-top: 150px;
 }
 
+.p-top-150 {
+  padding-top: 150px;
+}
+
 .m-top-250 {
   margin-top: 250px;
 }
@@ -215,6 +232,12 @@ li {
 
 .border {
   border: 1px solid #DEDDE0;
+}
+
+.b-top-fff {
+  border-top: 1px solid white;
+  padding-top: 50px;
+  line-height: ;
 }
 
 .bd-btt {
