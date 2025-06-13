@@ -63,6 +63,13 @@ button:hover {
   color: #ffffff;
 }
 
+.btn-bg-white {
+  padding: 13px 25px;
+  border: 1px black solid;
+  font-size: 1.1em;
+  background-color: #fff;
+}
+
 h1 {
   font-size: 5em;
   font-weight: 900;
@@ -171,11 +178,23 @@ li {
   width: 30%;
 }
 
+.col-40 {
+  width: 40%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
 .col-70 {
   width: 70%;
 }
 
 .col-100 {
+  width: 100%;
+}
+
+.col-60 img {
   width: 100%;
 }
 
@@ -262,4 +281,14 @@ li {
 
 .fourth-plan {
   margin-bottom: 10px;
+}
+
+.col-40 div {
+  padding: 80px;
+}
+
+.col-40 div p {
+  margin: 30px 0px;
+  font-size: 1.1em;
+  line-height: 25px;
 }
